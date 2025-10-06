@@ -1,7 +1,7 @@
 package com.driveon.driveOnApp.entity;
 
-import com.driveon.driveOnApp.shared.enums.PaymentMethod;
-import com.driveon.driveOnApp.shared.enums.RideRequestStatus;
+import com.driveon.driveOnApp.shared.Enums.PaymentMethod;
+import com.driveon.driveOnApp.shared.Enums.RideRequestStatus;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

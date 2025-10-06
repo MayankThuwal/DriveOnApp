@@ -1,9 +1,8 @@
 package com.driveon.driveOnApp.entity;
 
-import com.driveon.driveOnApp.shared.enums.PaymentMethod;
-import com.driveon.driveOnApp.shared.enums.RideStatus;
+import com.driveon.driveOnApp.shared.Enums.PaymentMethod;
+import com.driveon.driveOnApp.shared.Enums.RideStatus;
 import jakarta.persistence.*;
-import org.hibernate.annotations.CreationTimestamp;
 import org.locationtech.jts.geom.Point;
 
 import java.time.LocalDateTime;
