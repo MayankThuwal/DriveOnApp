@@ -1,21 +1,17 @@
 package com.driveon.driveOnApp.dto;
 
-
-import com.driveon.driveOnApp.shared.Enums.Role;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.Set;
-
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
-public class UserDTO {
+@AllArgsConstructor
+public class SignUpDTO {
 
     private String name;
 
     private String email;
 
-    private Set<Role> roles;
+    private String password;
 }
