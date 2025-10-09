@@ -4,7 +4,9 @@ import com.driveon.driveOnApp.bussines.IService.IAuthService;
 import com.driveon.driveOnApp.dto.DriverDTO;
 import com.driveon.driveOnApp.dto.SignUpDTO;
 import com.driveon.driveOnApp.dto.UserDTO;
+import org.springframework.stereotype.Service;
 
+@Service
 public class AuthService implements IAuthService {
 
     @Override
