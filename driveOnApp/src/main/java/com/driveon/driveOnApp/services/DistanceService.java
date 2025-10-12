@@ -1,8 +1,8 @@
-package com.driveon.driveOnApp.bussines.IService;
+package com.driveon.driveOnApp.services;
 
 import org.locationtech.jts.geom.Point;
 
-public interface IDistanceService {
+public interface DistanceService {
 
     double calculateDistance(Point src, Point dest);
 }

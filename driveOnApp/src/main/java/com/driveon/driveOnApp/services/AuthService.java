@@ -1,10 +1,10 @@
-package com.driveon.driveOnApp.bussines.IService;
+package com.driveon.driveOnApp.services;
 
 import com.driveon.driveOnApp.dto.DriverDTO;
 import com.driveon.driveOnApp.dto.SignUpDTO;
 import com.driveon.driveOnApp.dto.UserDTO;
 
-public interface IAuthService {
+public interface AuthService {
     String login(String email, String password);
 
     UserDTO signup(SignUpDTO signUpDTO);

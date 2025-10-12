@@ -1,7 +1,7 @@
 package com.driveon.driveOnApp.dto;
 
 
-import com.driveon.driveOnApp.shared.Enums.Role;
+import com.driveon.driveOnApp.entity.enums.Role;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

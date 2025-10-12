@@ -1,13 +1,13 @@
-package com.driveon.driveOnApp.bussines.Service;
+package com.driveon.driveOnApp.services.impl;
 
-import com.driveon.driveOnApp.bussines.IService.IAuthService;
+import com.driveon.driveOnApp.services.AuthService;
 import com.driveon.driveOnApp.dto.DriverDTO;
 import com.driveon.driveOnApp.dto.SignUpDTO;
 import com.driveon.driveOnApp.dto.UserDTO;
 import org.springframework.stereotype.Service;
 
 @Service
-public class AuthService implements IAuthService {
+public class AuthServiceImpl implements AuthService {
 
     @Override
     public String login(String email, String password) {
@@ -15,7 +15,8 @@ public class AuthService implements IAuthService {
     }
 
     @Override
-    public UserDTO signup(SignUpDTO signUpDTO) {
+    public UserDTO signup(SignUpDTO signUpDTO)
+    {
         return null;
     }
 

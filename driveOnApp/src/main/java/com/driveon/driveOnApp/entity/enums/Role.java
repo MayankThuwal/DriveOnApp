@@ -1,4 +1,4 @@
-package com.driveon.driveOnApp.shared.Enums;
+package com.driveon.driveOnApp.entity.enums;
 
 public enum Role {
     Admin,
