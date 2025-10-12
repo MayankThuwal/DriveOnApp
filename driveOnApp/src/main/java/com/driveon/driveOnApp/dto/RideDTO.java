@@ -1,7 +1,7 @@
 package com.driveon.driveOnApp.dto;
 
-import com.driveon.driveOnApp.shared.Enums.PaymentMethod;
-import com.driveon.driveOnApp.shared.Enums.RideStatus;
+import com.driveon.driveOnApp.entity.enums.PaymentMethod;
+import com.driveon.driveOnApp.entity.enums.RideStatus;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

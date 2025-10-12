@@ -1,13 +1,13 @@
-package com.driveon.driveOnApp.bussines.IService;
+package com.driveon.driveOnApp.services;
 
 import com.driveon.driveOnApp.dto.RideRequestDTO;
 import com.driveon.driveOnApp.entity.Driver;
 import com.driveon.driveOnApp.entity.Ride;
-import com.driveon.driveOnApp.shared.Enums.RideStatus;
+import com.driveon.driveOnApp.entity.enums.RideStatus;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 
-public interface IRideService {
+public interface RideService {
     Ride getRideById(Long rideId);
 
     void matchWithDrivers(RideRequestDTO rideRequestDto);

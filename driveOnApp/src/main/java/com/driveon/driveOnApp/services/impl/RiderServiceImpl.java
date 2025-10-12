@@ -1,6 +1,6 @@
-package com.driveon.driveOnApp.bussines.Service;
+package com.driveon.driveOnApp.services.impl;
 
-import com.driveon.driveOnApp.bussines.IService.IRiderService;
+import com.driveon.driveOnApp.services.RiderService;
 import com.driveon.driveOnApp.dto.DriverDTO;
 import com.driveon.driveOnApp.dto.RideDTO;
 import com.driveon.driveOnApp.dto.RideRequestDTO;
@@ -8,7 +8,7 @@ import com.driveon.driveOnApp.dto.RiderDTO;
 
 import java.util.List;
 
-public class RiderService implements IRiderService {
+public class RiderServiceImpl implements RiderService {
 
     @Override
     public RideRequestDTO requestRide(RideRequestDTO rideRequestDto) { // Send response as rideResponseDTO

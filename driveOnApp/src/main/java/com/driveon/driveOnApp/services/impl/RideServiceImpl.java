@@ -1,14 +1,14 @@
-package com.driveon.driveOnApp.bussines.Service;
+package com.driveon.driveOnApp.services.impl;
 
-import com.driveon.driveOnApp.bussines.IService.IRideService;
 import com.driveon.driveOnApp.dto.RideRequestDTO;
 import com.driveon.driveOnApp.entity.Driver;
 import com.driveon.driveOnApp.entity.Ride;
-import com.driveon.driveOnApp.shared.Enums.RideStatus;
+import com.driveon.driveOnApp.services.RideService;
+import com.driveon.driveOnApp.entity.enums.RideStatus;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 
-public class RideService implements IRideService {
+public class RideServiceImpl implements RideService {
 
     @Override
     public Ride getRideById(Long rideId) {

@@ -1,6 +1,6 @@
 package com.driveon.driveOnApp.entity;
 
-import com.driveon.driveOnApp.shared.Enums.Role;
+import com.driveon.driveOnApp.entity.enums.Role;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

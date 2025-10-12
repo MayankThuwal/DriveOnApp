@@ -1,4 +1,4 @@
-package com.driveon.driveOnApp.bussines.IService;
+package com.driveon.driveOnApp.services;
 
 import com.driveon.driveOnApp.dto.DriverDTO;
 import com.driveon.driveOnApp.dto.RideDTO;
@@ -6,7 +6,7 @@ import com.driveon.driveOnApp.dto.RiderDTO;
 
 import java.util.List;
 
-public interface IDriverService {
+public interface DriverService {
 
     RideDTO acceptRide(Long rideId);
 

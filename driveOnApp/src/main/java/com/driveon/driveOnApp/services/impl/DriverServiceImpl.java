@@ -1,6 +1,6 @@
-package com.driveon.driveOnApp.bussines.Service;
+package com.driveon.driveOnApp.services.impl;
 
-import com.driveon.driveOnApp.bussines.IService.IDriverService;
+import com.driveon.driveOnApp.services.DriverService;
 import com.driveon.driveOnApp.dto.DriverDTO;
 import com.driveon.driveOnApp.dto.RideDTO;
 import com.driveon.driveOnApp.dto.RiderDTO;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class DriverService implements IDriverService {
+public class DriverServiceImpl implements DriverService {
         @Override
         public RideDTO acceptRide(Long rideId) {
         return null;
